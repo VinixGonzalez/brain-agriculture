@@ -1,0 +1,24 @@
+{
+  "cultures": [
+    {
+      "id": "1",
+      "name": "Algodão"
+    },
+    {
+      "id": "2",
+      "name": "Café"
+    },
+    {
+      "id": "3",
+      "name": "Cana de Açúcar"
+    },
+    {
+      "id": "4",
+      "name": "Milho"
+    },
+    {
+      "id": "5",
+      "name": "Soja"
+    }
+  ]
+}
