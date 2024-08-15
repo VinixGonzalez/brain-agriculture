@@ -13,7 +13,7 @@ import { MdOutlineAddCircle } from "react-icons/md";
 import { useModal } from "@/hooks/useModal";
 import Link from "next/link";
 import { BiCheckDouble, BiEdit } from "react-icons/bi";
-import ControlledSelect from "@/components/select/Select";
+import { ControlledSelect } from "@/components";
 import { ProducerService } from "@/service/producerService";
 import { useToast } from "@/hooks";
 import { useRouter } from "next/navigation";
@@ -53,7 +53,6 @@ export const RegisterProducerForm: React.FC<RegisterProducerFormProps> = ({
   });
 
   const onSubmit = async (data: ProducerType) => {
-    debugger;
     try {
       if (edit && data.id) {
         const response = await ProducerService.updateProducer(data.id, data);
@@ -72,7 +71,6 @@ export const RegisterProducerForm: React.FC<RegisterProducerFormProps> = ({
       data = { ...data, id };
       const response = await ProducerService.createProducer(data);
 
-      debugger;
       if (!response.success) {
         toast.notify("Ocorreu um erro ao registrar o produtor", "error");
         return;

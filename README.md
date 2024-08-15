@@ -12,6 +12,8 @@ Este projeto foi feito no framework Next.js, na versão 14.2.5.
 
 O projeto utiliza arquivos JSON locais na pasta `src/mocks` como banco de dados, portanto, no momento só funciona localmente. Será feito posteriormente o desenvolvimento no ambiente cloud e postada a URL demo.
 
+O projeto é responsivo e pode ser utilizado em qualquer dispositivo.
+
 ## Bibliotecas Utilizadas
 
 - **Tailwind CSS**: Para estilização geral e criação de componentes customizados e reutilizáveis.
