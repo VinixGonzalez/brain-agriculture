@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brain Agriculture
 
-## Getting Started
+Este projeto foi feito no framework Next.js, na versão 14.2.5.
 
-First, run the development server:
+## Versões
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: 14.2.5
+- **Node.js**: 18.17.1
+- **npm**: 9.6.7
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Descrição
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto utiliza arquivos JSON locais na pasta `src/mocks` como banco de dados, portanto, no momento só funciona localmente. Será feito posteriormente o desenvolvimento no ambiente cloud e postada a URL demo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Bibliotecas Utilizadas
 
-## Learn More
+- **Tailwind CSS**: Para estilização geral e criação de componentes customizados e reutilizáveis.
+- **Chakra UI**: Uso dos componentes de Modal, Multi-select e Breadcrumb.
+- **react-hook-form**: Criação e gerenciamento de formulários.
+- **Zod**: Validação de dados de forma flexível e altamente customizável.
+- **react-google-charts**: Para criação dos gráficos dinâmicos na dashboard.
+- **react-toastify**: Para feedback de ações rápidas.
+- **Tanstack/react-table**: Para agrupar e organizar os dados dos produtores de forma simples e eficaz.
+- **react-icons**: Biblioteca de ícones extensa e completa.
+- **Jest / react-testing-library**: Testes unitários.
 
-To learn more about Next.js, take a look at the following resources:
+## Instalação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para rodar o projeto, siga os passos abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Instale as dependências:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Rode o projeto localmente:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+   ```
+
+## Observação
+
+Como melhoria/alternativa, pode ser usado o `react-query` para gerenciar as chamadas assíncronas, cache e feedback de carregamento. Será feito em um desenvolvimento futuro para demonstração.
+
+---
+
+Este é um projeto em constante evolução e melhorias estão sendo feitas continuamente. Fique atento para novas atualizações e funcionalidades.

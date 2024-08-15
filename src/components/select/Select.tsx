@@ -21,7 +21,7 @@ interface ControlledSelectProps<
   label?: string;
 }
 
-function ControlledSelect<
+export function ControlledSelect<
   FormValues extends FieldValues = FieldValues,
   Option = unknown,
   IsMulti extends boolean = boolean,
@@ -69,5 +69,3 @@ function ControlledSelect<
     </FormControl>
   );
 }
-
-export default ControlledSelect;

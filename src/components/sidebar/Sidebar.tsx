@@ -14,7 +14,7 @@ export const Sidebar: React.FC = () => {
             href={"/dashboard"}
             className="flex px-2 items-center gap-2 border-b border-b-transparent hover:text-green-600 hover:border-b-green-50 hover:border-b"
           >
-            <MdDashboard size={18} />
+            <MdDashboard size={18} data-testid="MdDashboard" />
             Dashboard
           </Link>
         </li>
@@ -23,7 +23,7 @@ export const Sidebar: React.FC = () => {
             href={"/producers"}
             className="flex px-2 items-center gap-2 border-b border-b-transparent hover:text-green-600 hover:border-b-green-50 hover:border-b"
           >
-            <GiFarmer size={18} />
+            <GiFarmer size={18} data-testid="GiFarmer" />
             Produtores
           </Link>
         </li>

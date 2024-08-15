@@ -32,6 +32,7 @@ const Drawer: React.FC = () => {
             <ul className="flex flex-col items-center justify-center text-xl gap-4">
               <li>
                 <Link
+                  role="button"
                   onClick={() => onClose()}
                   href={"/dashboard"}
                   className="text-green-800 hover:text-green-700"
@@ -41,6 +42,7 @@ const Drawer: React.FC = () => {
               </li>
               <li>
                 <Link
+                  role="button"
                   onClick={() => onClose()}
                   href={"/producers"}
                   className="text-green-800 hover:text-green-700"

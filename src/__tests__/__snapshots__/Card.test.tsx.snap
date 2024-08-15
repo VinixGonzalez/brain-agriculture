@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders with all props 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white custom-class"
+  >
+    <div
+      class="flex items-center gap-2 "
+    >
+      <div>
+        <div>
+          Icon
+        </div>
+      </div>
+      <p
+        class="text-xl"
+      >
+        Test Title
+      </p>
+    </div>
+    <hr
+      class="w-full"
+    />
+    <div>
+      Children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card component renders with children 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white undefined"
+  >
+    <div>
+      Children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card component renders with className 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white custom-class"
+  />
+</div>
+`;
+
+exports[`Card component renders with default props 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white undefined"
+  />
+</div>
+`;
+
+exports[`Card component renders with title and children 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white undefined"
+  >
+    <div
+      class="flex items-center gap-2 "
+    >
+      <p
+        class="text-xl"
+      >
+        Test Title
+      </p>
+    </div>
+    <hr
+      class="w-full"
+    />
+    <div>
+      Children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card component renders with title and titleIcon 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white undefined"
+  >
+    <div
+      class="flex items-center gap-2 "
+    >
+      <div>
+        <div>
+          Icon
+        </div>
+      </div>
+      <p
+        class="text-xl"
+      >
+        Test Title
+      </p>
+    </div>
+    <hr
+      class="w-full"
+    />
+  </div>
+</div>
+`;
+
+exports[`Card component renders with titleIcon and children 1`] = `
+<div>
+  <div
+    class="shadow-lg border border-gray-200 p-4 rounded-lg bg-white undefined"
+  >
+    <div>
+      Children
+    </div>
+  </div>
+</div>
+`;
