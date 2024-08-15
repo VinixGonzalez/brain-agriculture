@@ -1,9 +1,11 @@
 import React from "react";
 
-export const Footer: React.FC = () => {
+const Footer: React.FC = () => {
   return (
-    <footer className="bg-yellow-400 p-2">
+    <footer className="p-4 text-green-800 shadow-md bg-white">
       <p>FOOTER</p>
     </footer>
   );
 };
+
+export { Footer };

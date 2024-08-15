@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2a9a79c2-25c0-4a54-bd42-604f444c181f",
+    "cpfOrCnpj": "80.703.543/0001-04",
+    "producerName": "Vinicius Gonzalez",
+    "farmName": "Gonzalez Farm",
+    "city": "Juiz de Fora",
+    "state": "MG",
+    "totalArea": 1250,
+    "agriculturalArea": 500,
+    "vegetationArea": 300,
+    "crops": [
+      {
+        "label": "Algodão",
+        "value": "1"
+      },
+      {
+        "label": "Milho",
+        "value": "4"
+      },
+      {
+        "label": "Café",
+        "value": "2"
+      },
+      {
+        "label": "Soja",
+        "value": "5"
+      },
+      {
+        "label": "Cana de Açúcar",
+        "value": "3"
+      }
+    ]
+  }
+]
